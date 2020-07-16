@@ -1,6 +1,5 @@
 "use script";
 const formatString = function (string) {
-  console.log("длина строки-", string.length);
   const fixedStringLength = 40;
   let stringAfterCheck;
 

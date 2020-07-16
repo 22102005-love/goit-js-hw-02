@@ -1,11 +1,8 @@
 "use script";
 const checkForSpam = function (message) {
   const normalizeMessage = message.toLowerCase();
-  console.log(normalizeMessage);
   const checkWords =
-    normalizeMessage.includes("sale") || normalizeMessage.includes("spam")
-      ? "true"
-      : "false";
+    normalizeMessage.includes("sale") || normalizeMessage.includes("spam");
   return checkWords;
 };
 
